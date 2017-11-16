@@ -1,0 +1,22 @@
+1. ** Questions **
+If you have some questions first read FAQ, 
+second ask in smbc mailing list smbc@airm.net.
+
+2. ** Recomended **
+- Samba 2.8.8 or later. Advised samba version is the latest version. 
+  (Samba must be compiled with smbclient library.)
+- Ncurses library.
+- popt library from http://www.gnu.org/directory/libs/popt.html
+- and others
+
+3. ** Documentation **
+http://smbc.airm.net/manual/
+
+4. Example configuration for polish.
+
+add to file smb.conf below lines
+unix charset = ISO8859-2
+display charset = ISO8859-2
+
+set environment variable LANG as
+export LANG=pl_PL

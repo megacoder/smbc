@@ -1,0 +1,493 @@
+==== 1.2.2 (2005-06-29) ====
+
+* fixed bug in function to retrying connection
+
+* fixed bug in bookmark menu
+
+* fixed bug in function to set username, password and workgroup
+
+==== 1.2.1 (2005-03-18) ====
+
+* fixed bug in download/upload function
+
+==== 1.2.0 (2005-03-17) ====
+
+* some status was added
+
+* code was cleaned up
+
+* some structures was convert from static to dynamic
+
+==== 1.1.2 (2005-02-23) ====
+
+* fixed bug in function to manage download/upload files
+
+* add some new status messages
+
+* add new parameters retry-read-groups, retry-read-hosts,
+  retry-read-shares in smbcrc file
+
+* corrected bug in function to return to main menu when
+  remote host/share was empty or access was denied
+
+* some functions with access to files were corrected
+
+==== 1.1.1 (2005-02-14) ====
+
+* fixed bug in function to free memory in find file function
+
+* a function to manage resizing Smbc was corrected
+
+* a function to display status with new/turned off hosts
+  in the network was corrected
+
+* now you can find files in some chosen worgroups, 
+  computers, catalogs, etc.
+
+==== 1.1.0 (2005-02-11) ====
+
+* fixed bug in quick find file fuction
+
+* a menu to manage found files was changed
+
+* a function to find files was optymalized for memory usage
+
+==== 1.0.4 (2005-02-08) ====
+
+* a function to display message when smbc finished searching
+  files was corrected
+
+* add counter to find file function
+
+* a function mvwprintw was packed
+
+* a function asprintf was packed
+
+==== 1.0.3 (2005-02-06) ====
+
+* fixed bug in function to add new files to download/upload
+  list
+
+* fixed bug in function to remove local directiory with
+  Polish chars
+
+* fixed bug in function to create local directiory before 
+  downloading
+
+==== 1.0.2 (2005-02-05) ====
+
+* corrected of new delay time settings in files that
+  can't be downloaded/uploaded
+
+* Corrected of new delay time settings in files that can't be
+  downloaded/uploaded.
+
+==== 1.0.1 (2005-01-01) ====
+
+* fixed bug in manager download/upload list
+
+* fixed bug with displaying status bar download
+
+* a function strcpy was packed
+
+==== 1.0.0 (2004-09-29) ====
+
+* added documentation
+
+* changed function getHumanSize again
+  now the source code is much easier
+
+* corrected of displaing status in slow find files function
+
+* added status "access denied" when access is denied
+  during entering to share
+
+* added documentation in texi format
+
+* removed parameter char-set-system from smbcrc file,
+  now nl_langinfo(CODESET) is using
+
+* added man pages
+
+* Mikhail Kshevetskiy <kl@laska.dorms.spbu.ru>
+  removed convert charsets from po files to screen
+
+* added some changes on the base
+  http://www.gnu.org/prep/standards.text
+
+* a malloc function was packed
+
+* added some changes on the base
+  http://ftp.debian.org/debian/pool/main/s/smbc/smbc_0.8.3-1.diff.gz
+
+==== 0.9.0 (2004-08-25) ====
+
+* fixed bugs in RmanageFindFile function
+
+* fixed bug in init/usage inconv function
+
+* changed function getHumanSize
+  now this function is clean for buffer overflow
+
+==== 0.8.3 (2004-08-09) ====
+
+* changed source code of UTF-8 encoding
+  Mikhail Kshevetskiy <kl@laska.dorms.spbu.ru>
+  added convert.[ch] file and some macros
+
+* added parameters to smbcrc file: 
+    - char-set-from-locale-file
+    - char-set-to-output
+    - char-set-system
+   
+* added russian translation by
+  Mikhail Kshevetskiy <kl@laska.dorms.spbu.ru>
+
+* added function in input dialogs to delete string after cursor
+
+* corrected function to better manage processor free time
+
+==== 0.8.2 (2004-07-28) ====
+
+* fixed bug in RFS function, now smbc ignores of displaying char '%'
+
+* added status to try connect to remote host during download tries
+
+* added retry-delay-time parameter to delay time of download/upload
+  retries
+
+==== 0.8.1 (2004-06-23) ====
+
+* added parameter 'askquit' to enable or disable question if quit 
+  from smbc
+
+* added bookmark function
+
+* added function to move up and down items in download/upload 
+  and bookmark lists
+
+* fixed bug of displaying command line help "smbc -h"
+
+==== 0.8.0 (2004-05-25) ====
+
+* now smbc downloads/uploads also when you are in find or help
+  function or in some others
+
+* corrected of displaying some input functions
+
+* added function to ask if quit from smbc
+
+==== 0.7.3 (2004-05-17) ====
+
+* added function to receive message from WinPopup
+
+* added function to send WinPopup message
+  (this function work as frontend)
+
+* fixed displaying of ISO-8859-2 char code
+
+* added function to enter Polish chars for ISO-8859-2
+
+==== 0.7.2 (2004-05-06) ====
+
+* changed function of returning to previous position during local 
+  and remote browsing
+
+* added function (Ctrl+f) to flush download list
+
+* added parameter (-f) to flush all download lists
+
+* added parameter (-l) to show all download lists
+
+* added parameter (-s) to display all items from download/upload lists
+
+* added parameter (-p) to sleep, smbc doesn't download/upload
+  any files from dulists
+
+* fixed bug in function saving download lists when smbc shuts down
+
+==== 0.7.1 (2004-03-23) ====
+
+* fixed bug in download list
+
+* fixed bug in manage download/upload list 
+
+* added function of displaying files added to download/upload list
+
+==== 0.7.0 (2004-03-16) ====
+
+* fixed bug in text file viewer function
+
+* fixed bug in sort files and directories function
+
+* changed source code of find function,
+  now find function work correctly also with big local network
+
+* added function to save download list to file when SMBC crashes
+
+* added function (Ctrl+I) to enable/disable interactive filtering 
+  of found files
+
+* added function (Ctrl+K) to quit from browsing found files list
+
+==== 0.6.2 (2004-03-08) ====
+
+* fixed displaying buttons in resume menu
+
+* cleaned code to compile smbc with samba-3.0.0
+
+* added simple text file viewer
+
+* added function and parameter "char-convert" to convert UTF-8 
+  to ISO-8859-2, especially for Polish
+
+==== 0.6.1 (2004-02-13) ====
+
+* fixed big bug in quick find file function
+
+* changed some configure parameters
+
+* cleaned code
+
+==== 0.6.0 (2004-02-13) ====
+
+* new compilation and installation method
+
+==== 0.5.0 (2004-02-02) ====
+
+* added function resizing window with found files list
+
+* added function resizing window with downloaded files list
+
+* added multilanguage support, Polish and English support now
+
+* fixed bug, now don't select file name ".."
+
+==== 0.4.6 (2004-01-26) ====
+
+* fixed display of selected file in the window of the find files 
+  function
+
+* changed function of resize window
+
+* added function to display warning message in to status bar when user 
+  try copy to or from whole network, all workgroups or hosts
+
+==== 0.4.5 (20-Jan-2004) ====
+
+* added function of sorting files and directories by extension 
+
+* added function of sorting files and directories by size
+
+* added function and parameter "typeofsort" to change type of sorting
+
+* added function and parameter "revesesort" to change on revese sorting
+
+* added function and parameter "group" to group/ungroup files and directories
+
+* added function to cancel slow find function
+
+* added function to display information window when screen is to small
+
+==== 0.4.4 (15-Jan-2004) ====
+
+* added function and parameter of displaying choice menu when local 
+  or remote disk is full or quota exceeded
+
+* prepared smbc code to compile with samba-2.8.8
+
+* added function to display list of new hosts and list of hosts which 
+  go offline in status bar
+
+* added function to kill child smbc when parent smbc was killed with 
+  signal SIGKILL
+
+* added function to run child smbc process when another smbc with 
+  running child process was shutdown
+
+* changing value of parameter "indextime" in smbcrc file
+
+==== 0.4.3 (11-Jan-2004) ====
+
+* fixed function of pressing key in connection broken menu
+
+* all functions from libsmbclient was packed
+
+* added function and parameter of auto resume download,
+  smbc doesn't ask about resume if connection is broken
+
+==== 0.4.2 (05-Jan-2004) ====
+
+* fixed function to not remove index file when two or more smbc are 
+  running
+
+* added spec file to create rpm package
+
+* added function to display status how many hosts go online and how 
+  many hosts go offline since the time of generation of last index file
+
+* added function of moving all smblibclient error messages to /dev/null
+
+==== 0.4.1 (22-Dec-2003) ====
+
+* added function to find file or directory on the network, only on the 
+  sub tree on the network where user actully is
+
+* added function to kill slave smbc process when master shuts down
+
+* added the detection if another smbc is running and then 
+  the second index process isn't run
+
+==== 0.4.0 (19-Dec-2003) ====
+
+* added function to find file or directory on the network
+
+==== 0.3.6 (12-Dec-2003) ====
+
+* fixed remaining time of downloaded file display
+
+* fixed retrive of downloaded file
+
+* cleaned code to compile smbc with samba-3.0.1rc2
+
+==== 0.3.5 (10-Dec-2003) ====
+
+* fixed bug during initialization defined color from ~/smbc/.smbcrc
+
+* fixed multiple line string for gcc-3.3
+
+* fixed display of selected file while changing active column
+
+* cleaned code and changed install method to compile smbc with samba-3.0.0
+
+* change config directory from ~/smbc to ~/.smbc
+
+* added remaing time of downloaded file display
+
+* added function to remember multiple download lists during user exit 
+  from one of working at the same time smbcs; download lists will be 
+  remembered to ~/.smbc/dulistX, where X is the number of given list
+
+==== 0.3.4 (5-Dec-2003) ====
+
+* added description how to run smbc in utf8
+
+* cleaned code to compile smbc in gcc-2.96 for RedHat 7.3
+
+* added function to group file and directories
+
+* added function to remember return position during browsing local 
+  directiories and remote workgroups, hosts, shares and directories
+
+* added function witch allows to color files with chosen extensions
+
+* user can define his or her own colors of files with given extensions
+
+==== 0.3.3 (30-Nov-2003) ====
+
+* fixed bugin in display local files and directories during downloading
+
+* fixed bug during enter to empty remote directory
+
+* fixed bug during press page_down and list has maxY-1 items
+
+* added timeout parameter to connections
+
+* added time out status
+
+* added function to create local and remote directory
+
+* added display average download and upload speed
+
+==== 0.3.2 (29-Nov-2003) ====
+
+* fixed bug in display status when downloading
+
+* fixed bug in delete selected remote file
+
+* added the function of upload files and directories
+
+* added status of deleting files and directories
+
+==== 0.3.1 (26-Nov-2003) ====
+
+* added select/unselect file and directories
+
+* added download selected files and directories
+
+* added the possibility to enter at once to given 
+  workgroup/host/share/dir
+
+* fixed bug in smbc display when polish chars are set
+
+* added remove selected files and directories from local disk and 
+  network
+
+==== 0.3.0 (22-Nov-2003) ====
+
+* fixed bug in window resize
+
+* new compilation method
+
+==== 0.2.2 (21-Nov-2003) ====
+
+* fixed bug in resume download
+
+* fixed bug during reading of .smbcrc config file
+
+* added the check that the remote and local file are the same.
+  If the file is different user can decide what to do: delete,
+  overwrite file or set wait on downloaded file
+
+* added the function of deleting local files or directories
+
+* moved .smbcrc config file from ~/ to ~/smbc/ directory
+
+* added saving of downloading list when quiting smbc
+
+==== 0.2.1 (20-Nov-2003) ====
+
+* added ~/.smbcrc config file
+
+* added percentage status downloaded file
+
+* added status of number of downloaded files
+
+* added management of downloading list
+
+* created smbc-list - users mailing list on the sourceforge.net
+
+==== 0.2.0 (18-Nov-2003) ====
+
+* ported from Perl to C
+
+* basic version with simple functions
+
+* uses libsmbclient - not frontend for smbclient
+
+* has resume function
+
+==== 0.1.3 (27-Oct-2003) ====
+
+* added resume of broken or abandoned downloaded files 
+  (used smbwget software from http://freshmeat.net/projects/smbwget by 
+   jelmer@nl.linux.org)
+
+* corrected display of download status bar
+
+==== 0.1.2 (26-Oct-2003) ====
+
+* added dialog to some situations
+
+* added downloading remaing status
+
+* added downloading percentage status
+
+==== 0.1.1 (26-Oct-2003) ====
+
+* corrected display of remote file/dir size
+
+==== 0.1.0 (22-Oct-2003) ====
+
+* first version
+

@@ -1,0 +1,4 @@
+     ../src/smbc.c \
+     ../src/dulist.c \
+     ../src/downloadlist.c \
+     ../src/static_str.c

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "rm..." && rm -fR aclocal.m4 configure po/Makefile* config/* autom4te.cache config.h config.log
+./clear-compile

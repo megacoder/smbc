@@ -1,0 +1,130 @@
+# ~/smbc/.smbcrc
+#
+# SMBC config file.
+# source http://smbc.airm.net
+#
+# line with # in the begining is ignored
+#
+# all values can be:
+#variable "long value with spaces"
+# or
+#variable long value with spaces
+#-----------------------------------------
+# username, default guest
+#username guest
+
+# password, default none
+#password xxx
+
+# path to smbclient, necessery for send WinPopup
+# default none
+smbclient /usr/bin/smbclient
+
+# start local directory, default HOME
+#localdir /home/rafim/tym
+
+# start workgroup, default none
+#workgroup WORKGROUP
+
+# start hostname, default none
+#host AIR
+
+# start remote host dir, default none
+#share /sciepa/mpg/
+
+# type of sort files and directories
+# default 1 
+# typeofsort-left 1 - sort by filenames
+# typeofsort-left 2 - sort by extension
+# typeofsort-left 3 - sort by size
+# typeofsort-left 4 - don't sort
+#typeofsort-left 1
+#typeofsort-right 1
+
+# type of reverse sorting, default 0
+# 1 - reversesort on, 0 - reversesort off
+#revesesort-left 0
+#revesesort-right 0
+
+# group files and directories, default 1
+# 1 - group on, 0 - group off
+#group-left 1
+#group-right 1
+
+# connection time out in seconds, default 3 seconds
+#timeout 3
+
+# auto resume download, don't ask if connection is broke,
+# default 0
+# 1 - autoresume on, 0 - autoresume off
+#autoresume 1
+
+# time between smbc restart indexing network files in seconds,
+# default 300 seconds
+# if indextime = 0, smbc disable indexing network files
+# if indextime = 1, smbc ony once index network files
+#indextime 300
+
+# convert all chars from UTF-8 to terminal charset
+# if char-convert = 0, disable convert 
+# if char-convert = 1, enable convert
+# default 1
+#char-convert 1
+
+# delay time to retrying download is seconds
+# default 60 second
+#retry-delay-time 60
+
+# ask if quit from smbc
+# 1 - ask, 0 - don't ask, default 1
+#askquit 0
+
+# how many times smbc retries to read groups when samba returns fail 
+# or empty result
+# if retry-read-groups = -1, retries to success
+# if retry-read-groups = 0,  doesn't retry
+# if retry-read-groups > 0,  retries retry-read-groups times
+# default retry-read-groups = 5
+#retry-read-groups 2
+
+# how many times smbc retries to read hosts when samba returns fail 
+# or empty result
+# if retry-read-hosts = -1, retries to success
+# if retry-read-hosts = 0,  doesn't retry
+# if retry-read-hosts > 0,  retries retry-read-hosts times
+# default retry-read-hosts = 5
+#retry-read-hosts 2
+
+# how many times smbc retries to read shares when samba returns fail 
+# or empty result
+# if retry-read-shares = -1, retries to success
+# if retry-read-shares = 0,  doesn't retry
+# if retry-read-shares > 0,  retries retry-read-shares times
+# default retry-read-shares = 5
+#retry-read-shares 2
+
+# define three colors, 
+#colorK XXXX,YYYY,ZZZZ
+# where XXXX,YYYY,ZZZZ are red,green,blue and have value <0000..1000>
+# K have value <0..2>
+# default 0 colors defined
+color0 0100,0100,0610
+color1 0900,0080,0900
+color2 0010,0500,0500
+
+# define color for file extension, one definition per line
+# maximal extension length = 10 chars
+# default 0 colors defined
+extcolor0 exe
+extcolor0 bin
+extcolor0 bat
+extcolor0 tar
+extcolor0 gz
+extcolor0 tgz
+extcolor1 mp3
+extcolor1 wav
+extcolor1 mod
+extcolor2 avi
+extcolor2 mpg
+extcolor2 mpeg
+

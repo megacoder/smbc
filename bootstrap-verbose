@@ -1,0 +1,22 @@
+#!/bin/sh
+
+#set -x
+
+#
+# gettextize --copy --intl --force \
+#
+
+./clear && \
+echo "-----------------------------------------------------------------------" && \
+echo "cp..." && cp /opt/automake/share/automake-1.8/mkinstalldirs config/ && \
+echo "-----------------------------------------------------------------------" && \
+echo "aclocal..." && aclocal -I m4 --verbose && \
+echo "-----------------------------------------------------------------------" && \
+echo "glib-gettextize..." && glib-gettextize -c -f && \
+echo "-----------------------------------------------------------------------" && \
+echo "autoheader..." && autoheader --verbose && \
+echo "-----------------------------------------------------------------------" && \
+echo "automake..." && automake --gnu --add-missing --copy --foreign --verbose; \
+echo "-----------------------------------------------------------------------" && \
+echo "autoconf..." && autoconf -f -v
+

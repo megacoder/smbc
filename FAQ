@@ -1,0 +1,12 @@
+1. Please read first documentation.
+ 
+2. How to set UTF-8 in xterm?
+
+In smb.conf, usually /etc/samba/smb.conf insert
+and run smbc as
+LC_CTYPE=pl_PL.UTF-8 xterm -sb -bg black -fg white -sl 3000 -fn '-misc-fixed-medium-r-normal-*-*-*-*-*-*-70-iso10646-1' -e smbc
+
+
+Last changed 
+2004-09-22
+

@@ -1,0 +1,19 @@
+Source: smbc
+Section: net
+Priority: optional
+Maintainer: No¨l Kthe <noel@debian.org>
+Build-Depends: debhelper (>= 4.0.0), gawk, gettext, libsmbclient-dev (>>3.0.0), libncurses5-dev, libpopt-dev
+Standards-Version: 3.6.1
+
+Package: smbc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: samba-commander - curses based samba network browser
+ Samba Commander is a text mode SMB network commander. In SMBC, you
+ can browse the local network or you can use the search function to find the
+ files. You can also download/upload files and directories or create them
+ both locally and remotely. SMBC has a resume function and supports UTF-8
+ characters.
+ .
+ http://smbc.airm.net
+ 

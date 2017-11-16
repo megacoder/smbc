@@ -1,0 +1,830 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smbc 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-08 10:43+0100\n"
+"PO-Revision-Date: 2004-08-01 22:38+0300\n"
+"Last-Translator: Mikhail Kshevetskiy <kl@laska.dorms.spbu.ru>\n"
+"Language-Team: Rafal Michniewicz <rafim@data.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=KOI8-R\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/dulist.c:81
+#, c-format
+msgid "Founded %i lists\n"
+msgstr ""
+
+# msgid "Founded %i lists\n"
+# msgstr ""
+#: src/dulist.c:106
+#, c-format
+msgid "%s flushed\n"
+msgstr "%s очищено\n"
+
+#: src/dulist.c:118
+#, c-format
+msgid "Flush done.\n"
+msgstr "Очистка завершена.\n"
+
+#: src/dulist.c:153
+#, c-format
+msgid "1 - local path\n"
+msgstr "1 - локальный путь\n"
+
+#: src/dulist.c:154
+#, c-format
+msgid "2 - workgroup\n"
+msgstr "2 - группа\n"
+
+#: src/dulist.c:155
+#, c-format
+msgid "3 - size\n"
+msgstr "3 - размер\n"
+
+#: src/dulist.c:156
+#, c-format
+msgid "4 - percent download/upload\n"
+msgstr "4 - процентов скачано/закачано\n"
+
+#: src/dulist.c:157
+#, c-format
+msgid "5 - 'X' - active, 'W' - wait, ' ' don't download/upload\n"
+msgstr "5 - 'X' - активная, 'W' - ждать, ' ' не скачивать/закачивать\n"
+
+#: src/dulist.c:158
+#, c-format
+msgid "6 - 'D' - download, 'U' - upload\n"
+msgstr "6 - 'D' - скачать(download), 'U' - закачать(upload)\n"
+
+#: src/dulist.c:159
+#, c-format
+msgid "7 - remote path\n"
+msgstr "7 - удаленный путь\n"
+
+#: src/static_str.c:27
+msgid "Please change screen"
+msgstr "Пожалуйста увеличьте окно."
+
+#: src/static_str.c:28
+msgid "size to minimum 80x25"
+msgstr "Минимальный размер 80x25."
+
+#: src/static_str.c:29
+#, fuzzy
+msgid "A workgroups list is empty."
+msgstr "Список закачки пуст."
+
+#: src/static_str.c:30
+#, fuzzy
+msgid "Founded workgroups."
+msgstr "Внимание. Не могу копировать группу %s."
+
+#: src/static_str.c:31
+#, fuzzy
+msgid "A hosts list in workgroup is empty."
+msgstr "Список закачки пуст."
+
+#: src/static_str.c:32
+#, fuzzy
+msgid "Founded hosts in workgroup."
+msgstr "Внимание. Не могу копировать группу %s."
+
+#: src/static_str.c:33
+#, fuzzy
+msgid "A share list in host is empty."
+msgstr "Список закачки пуст."
+
+#: src/static_str.c:34
+#, fuzzy
+msgid "Founded shares in host."
+msgstr "Список закачки пуст."
+
+#: src/static_str.c:35
+msgid "Can't read files/dirs from host."
+msgstr ""
+
+#: src/static_str.c:36
+#, fuzzy
+msgid "A files/dirs list in host is empty."
+msgstr "Список закачки пуст."
+
+#: src/static_str.c:37
+#, fuzzy
+msgid "Founded files/dirs in host."
+msgstr "Список закачки пуст."
+
+#: src/static_str.c:39
+msgid " is empty."
+msgstr " пуста."
+
+#: src/static_str.c:40
+msgid "Share "
+msgstr ""
+
+# msgid "Share "
+# msgstr ""
+#: src/static_str.c:41
+msgid "[ Retry ]"
+msgstr "[ Повторить ]"
+
+#: src/static_str.c:42
+msgid "[ Wait ]"
+msgstr "[ Подождать ]"
+
+#: src/static_str.c:43
+msgid "[ Overwrite ]"
+msgstr "[ Переписать ]"
+
+#: src/static_str.c:44
+msgid "[ Retry without asking ]"
+msgstr "[ Повторить без запроса ]"
+
+#: src/static_str.c:45
+msgid "[ Delete ]"
+msgstr "[ Удалить ]"
+
+#: src/static_str.c:46
+msgid "retry delay time : "
+msgstr "задержка перед повтором : "
+
+#: src/static_str.c:47
+#, fuzzy
+msgid "    found :"
+msgstr " Компьютер:"
+
+#: src/static_str.c:48
+msgid "Probably "
+msgstr ""
+
+#: src/static_str.c:49
+#, fuzzy
+msgid " disk is full or quota exceeded."
+msgstr "Возможно диск полный или превышена квота."
+
+#: src/static_str.c:50
+#, fuzzy
+msgid "Retry read workgroups list "
+msgstr "Внимание. Не могу копировать группу %s."
+
+#: src/static_str.c:51
+msgid "Retry read hosts list "
+msgstr ""
+
+#: src/static_str.c:52
+msgid "Retry read shares list "
+msgstr ""
+
+#: src/static_str.c:53
+#, fuzzy
+msgid "Can't read workgroup."
+msgstr "Внимание. Не могу копировать группу %s."
+
+#: src/static_str.c:54
+#, fuzzy
+msgid "Can't read workgroups list."
+msgstr "Внимание. Не могу копировать группу %s."
+
+#: src/static_str.c:55
+#, fuzzy
+msgid "Dir "
+msgstr "Каталог:"
+
+#: src/static_str.c:56
+msgid "Download list is empty."
+msgstr "Список закачки пуст."
+
+#: src/static_str.c:57
+msgid "I can't enter to"
+msgstr "Не могу войти в"
+
+#: src/static_str.c:58
+msgid "Do you want delete"
+msgstr "Вы хотите удалить"
+
+#: src/static_str.c:59
+msgid "Group "
+msgstr "Группа "
+
+#: src/static_str.c:60
+msgid "Host "
+msgstr "Компьютер "
+
+#: src/static_str.c:61
+msgid "Access denied."
+msgstr "В доступе отказано."
+
+#: src/static_str.c:62
+msgid "Do you want copy"
+msgstr "Вы хотите скопировать"
+
+#: src/static_str.c:63
+msgid "Index for find file now is empty, try letter."
+msgstr "Индекс для поиска файлов пуст, попробуйте попозже."
+
+#: src/static_str.c:64
+msgid "Loading find index file from disk to memory, please wait..."
+msgstr "Загружаем индекс для поиска файлов, пожалуйста подождите..."
+
+#: src/static_str.c:65
+msgid "New message"
+msgstr "Новое сообщение"
+
+#: src/static_str.c:66
+msgid "Do you want quit from smbc?"
+msgstr "Вы хотите выйти из smbc?"
+
+#: src/static_str.c:67
+msgid "S D size  remai per file/directory"
+msgstr "S D размер требуется для файла/каталога"
+
+#: src/static_str.c:68
+msgid "time remaing | delay | from | to | group"
+msgstr "осталось | задержка | из | в | группв"
+
+#: src/static_str.c:69
+msgid "Try connect to : "
+msgstr "Попробуйте соединиться с : "
+
+#: src/static_str.c:70
+msgid "Permission denied to"
+msgstr "Отказано в доступе к"
+
+#: src/static_str.c:72
+msgid "Adding files to download list..."
+msgstr "Добавление файлов в список скачки..."
+
+#: src/static_str.c:73
+msgid "Adding files to upload list..."
+msgstr "Добавление файлов в список закачки......"
+
+#: src/static_str.c:74
+msgid "q-quit | h-help | (d)F5-copy | s-download list | f - search remote file"
+msgstr "q-выход | h-помощь | (d)F5-копировать | s-список закачки | f - поиск"
+
+#: src/static_str.c:75
+msgid ""
+"Enter workgroup name, keys Enter,TAB - next field, Ctrl+p enable/disable "
+"interactive filtering, Ctrl+k - quit"
+msgstr ""
+"Введите имя группы, клавиши Enter,TAB - следующее поле, Ctrl+p отмена/"
+"разрешение фильтрования, Ctrl+k - выход"
+
+#: src/static_str.c:76
+msgid ""
+"Enter hostname name, Enter,TAB - next field, Ctrl+p enable/disable "
+"interactive filtering, Ctrl+k - quit"
+msgstr ""
+"Введите имя компьютера, Enter,TAB - следующее поле, Ctrl+p отмена/разрешение "
+"фильтрования, Ctrl+k - выход"
+
+#: src/static_str.c:77
+msgid ""
+"Enter dir name, Enter,TAB - next field, Ctrl+p enable/disable interactive "
+"filtering, Ctrl+k - quit"
+msgstr ""
+"Введите имя каталога, Enter,TAB - следующее поле, Ctrl+p отмена/ разрешение "
+"фильтрования, Ctrl+k - выход"
+
+#: src/static_str.c:78
+msgid ""
+"Enter file name, Enter,TAB - next field, Ctrl+p enable/disable interactive "
+"filtering, Ctrl+k - quit"
+msgstr ""
+"Введите имя файла, Enter,TAB - следующее поле, Ctrl+p отмена/ разрешение "
+"фильтрования, Ctrl+k - выход"
+
+#: src/static_str.c:79
+msgid ""
+"q - quit | Enter - go to file | TAB - next field | PageUp,PageDown,Up,Down - "
+"manage to list"
+msgstr ""
+"q - выход | Enter - перейти к файлу | TAB - следующее поле | PageUp,PageDown,"
+"Up,Down - управление списком"
+
+#: src/static_str.c:81
+msgid "Preparing find index."
+msgstr "Создание индекса файлов для поиска."
+
+#: src/static_str.c:82
+#, c-format
+msgid "Sort %s panel by filename."
+msgstr "Сортировать %s панель по имени файлов."
+
+#: src/static_str.c:83
+#, c-format
+msgid "Sort %s panel by extension."
+msgstr "Сортировать %s панель по типу файлов."
+
+#: src/static_str.c:84
+#, c-format
+msgid "Sort %s panel by size."
+msgstr "Сортировать %s панель по размеру файлов."
+
+#: src/static_str.c:85
+#, c-format
+msgid "%s panel without sorting."
+msgstr "%s панель без сортировки"
+
+#: src/static_str.c:86
+#, c-format
+msgid "Reverse sorting in %s panel."
+msgstr "Обратная сортировка на %s панели."
+
+#: src/static_str.c:87
+#, c-format
+msgid "Ungroup files and directories in %s panel."
+msgstr "Разгруппировать файлы и каталоги на %s панели."
+
+#: src/static_str.c:88
+#, c-format
+msgid "Group files and directories in %s panel."
+msgstr "Группировать файлы и каталоги на %s панели."
+
+#: src/static_str.c:89
+#, c-format
+msgid "Warning. Can't copy %s workgroup."
+msgstr "Внимание. Не могу копировать группу %s."
+
+#: src/static_str.c:90
+#, c-format
+msgid "Warning. Can't copy %s host."
+msgstr "Внимание. Не могу копировать компьютер %s."
+
+#: src/static_str.c:91
+msgid "Warning. Can't copy from share."
+msgstr "Внимание. Не могу копировать из ресурса"
+
+#: src/static_str.c:92
+msgid "Warning. Can't copy to network."
+msgstr "Внимание. Не могу копировать в сеть."
+
+#: src/static_str.c:93
+msgid "(q)F3-quit | (w)F8-wrap/unwrap"
+msgstr "(q)F3-выход | (w)F8-(не)переносить длинные строки "
+
+#: src/static_str.c:94
+msgid "Interactive filtering is off."
+msgstr "Интерактивный фильтр отключен."
+
+#: src/static_str.c:95
+msgid "Interactive filtering is on."
+msgstr "Интерактивный фильтр включен."
+
+#: src/static_str.c:96
+msgid ""
+"q - quit | b - add bookmark and quit | d(DEL)/u - delete/undelete | x(Enter) "
+"- go to item"
+msgstr ""
+"q-выход | b- добавить закладку и выйти | d(DEL) - удалить/восстановить | x"
+"(Enter) - перейти к полю"
+
+#: src/static_str.c:97
+msgid ""
+"MOVE q - quit | b - add bookmark and quit | d(DEL)/u - delete/undelete | x"
+"(Enter) - go to item"
+msgstr ""
+"PRZEN. q-koniec | b-dodaj zakЁadkЙ i wyjd╪ | d(DEL) - skasuj | x(Enter) - "
+"id╪ do pola"
+
+#: src/static_str.c:98
+msgid ""
+"q - exit | d(DEL) - delete | u - undelete | space - pause/resume | CTRL-d - "
+"delete dir | CTRL-f - flush list"
+msgstr ""
+"q - выход | d(DEL) - удалить | u - восстановить | spacja - пауза/продолжить "
+"| CTRL-d - удалить каталог | CTRL-f - очистить список"
+
+#: src/static_str.c:99
+msgid ""
+"MOVE q - exit | d(DEL) - delete | u - undelete | space - pause/resume | CTRL-"
+"d - delete dir | CTRL-f - flush list"
+msgstr ""
+"ПЕРЕМЕСТИТЬ. q - выход | d(DEL) - удалить | u - восстановить | spacja - "
+"пауза/продолжить | CTRL-d - удалить каталог | CTRL-f - очистить список"
+
+#: src/static_str.c:100
+msgid "right"
+msgstr "правую"
+
+#: src/static_str.c:101
+msgid "left"
+msgstr "левую"
+
+#: src/static_str.c:102
+msgid "from"
+msgstr "из"
+
+#: src/static_str.c:103
+msgid "o,arrow down - down              u,end - tail off list"
+msgstr "o,стрелка вниз - вниз           u,end - на конец списка"
+
+#: src/static_str.c:104
+msgid "p,arrow up   - up               y,home - head off list"
+msgstr "p, стрелка вверх - вверх        y,home - в начало списка"
+
+#: src/static_str.c:105
+msgid "i,tab        - change column      d,F5 - download/upload"
+msgstr "i,tab        - другая панель    d,F5 - копировать"
+
+#: src/static_str.c:106
+msgid "t            - group/ungroup         w - reverse sorting"
+msgstr "t            - группировать     w - обратная сортировка"
+
+#: src/static_str.c:107
+msgid "x,Enter           - execute a directory"
+msgstr "x,Enter           - войти в каталог"
+
+#: src/static_str.c:108
+msgid "a,insert          - select/unselect one file"
+msgstr "a,insert          - выбрать файл"
+
+#: src/static_str.c:109
+msgid "l,page up         - one screen up"
+msgstr "l,page up         - один экран вверх"
+
+#: src/static_str.c:110
+msgid "k,page down       - one screen down"
+msgstr "k,page down       - один экран вниз"
+
+#: src/static_str.c:111
+msgid "CTRL-d,F8         - delete file or directory"
+msgstr "CTRL-d,F8         - удалить файл/каталог"
+
+#: src/static_str.c:112
+msgid "shift-/shift=     - select/unselect all files"
+msgstr "shift-/shift=     - выбрать все файлы"
+
+#: src/static_str.c:113
+msgid "numeric *,shift-8 - reverse select"
+msgstr "num. *,shift-8    - обратить выделение"
+
+#: src/static_str.c:114
+msgid "c,F7              - create directory"
+msgstr "c,F7              - создать каталог"
+
+#: src/static_str.c:115
+msgid "v,F3              - view text file"
+msgstr "v,F3              - посмотреть текстовый файл"
+
+#: src/static_str.c:116
+msgid "g                 - go to group/host/share/dir"
+msgstr "g      - перейти к группе/компьютеру/ресурсу/каталогу."
+
+#: src/static_str.c:117
+msgid "e                 - change type of sorting"
+msgstr "e                 - изменить правило сортировки"
+
+#: src/static_str.c:118
+msgid "s                 - download list status"
+msgstr "s                 - статус списка закачки"
+
+#: src/static_str.c:119
+msgid "f - search file     r - reload     q - quit     h - help"
+msgstr "f - поиск файла   r - перечитать  q - выход   h - помощь"
+
+#: src/static_str.c:120
+msgid "              More details in README file."
+msgstr "         Смотрите подробности в файле README."
+
+#: src/static_str.c:121
+msgid "Inspiration is my wife Magda (Arida)"
+msgstr "Вдохновитель - моя жена Магда (Арида)"
+
+#: src/static_str.c:123
+msgid "Files"
+msgstr "Файлы"
+
+#: src/static_str.c:125
+msgid "to"
+msgstr "для"
+
+#: src/static_str.c:126
+msgid "are different or connection broken."
+msgstr "отличается или соединение порвано."
+
+#: src/static_str.c:127
+msgid "Click on Wait to download letter."
+msgstr "Нажмите на Подождать чтобы скачать поэже."
+
+#: src/static_str.c:128
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: src/static_str.c:129
+#, fuzzy
+msgid "Can't "
+msgstr "Не могу "
+
+#: src/static_str.c:130
+msgid "Connection broken."
+msgstr "Соежинение порвано."
+
+#: src/static_str.c:131
+msgid "deleting"
+msgstr "удаление"
+
+#: src/static_str.c:133
+msgid "file or directory name"
+msgstr "имя файла или каталога"
+
+#: src/static_str.c:135
+msgid "T"
+msgstr "T"
+
+#: src/static_str.c:136
+msgid "workgroup, share, file or directory name"
+msgstr "рабочая группа, ресурс, каталог или имя файла"
+
+#: src/static_str.c:137
+msgid "size"
+msgstr "размер"
+
+#: src/static_str.c:139
+msgid "error saving download/upload list\n"
+msgstr "Ошибка сохранения списка скачки/закачки\n"
+
+#: src/static_str.c:141
+msgid "workgroup:"
+msgstr "Группа:"
+
+#: src/static_str.c:143
+msgid "path:"
+msgstr "Путь:"
+
+#: src/static_str.c:144
+msgid "username:"
+msgstr "имя пользователя:"
+
+#: src/static_str.c:145
+msgid "password:"
+msgstr "пароль:"
+
+#: src/static_str.c:146
+msgid "[ OK ]"
+msgstr "[ OK ]"
+
+#: src/static_str.c:147
+msgid "[ Cancel ]"
+msgstr "[ Отмена ]"
+
+#: src/static_str.c:148
+msgid "Go to"
+msgstr "Перейти к"
+
+#: src/static_str.c:149
+msgid "Create directory"
+msgstr "Создать каталог"
+
+#: src/static_str.c:150
+msgid "workgroup"
+msgstr "группа"
+
+#: src/static_str.c:151
+msgid "hostname"
+msgstr "компьютер"
+
+#: src/static_str.c:152
+msgid "dir"
+msgstr "каталог"
+
+#: src/static_str.c:153
+msgid "filename"
+msgstr "имя файла"
+
+#: src/static_str.c:154
+msgid "Workgroup:"
+msgstr "Группа:"
+
+#: src/static_str.c:155
+msgid "Hostname:"
+msgstr "Компьютер:"
+
+#: src/static_str.c:156
+msgid "Dir:"
+msgstr "Каталог:"
+
+#: src/static_str.c:157
+msgid "Filename:"
+msgstr "Имя файла:"
+
+#: src/static_str.c:158
+msgid "Finding files on the network"
+msgstr "Поиск файлов по сети"
+
+#: src/static_str.c:159
+msgid "Workgroup :"
+msgstr "   Группа :"
+
+#: src/static_str.c:160
+msgid "     Host :"
+msgstr " Компьютер:"
+
+#: src/static_str.c:161
+msgid "      Dir :"
+msgstr "  Каталог :"
+
+#: src/static_str.c:162
+msgid "[ Quick find (with index) ]"
+msgstr "[ Быстрый поиск (по индексу) ]"
+
+#: src/static_str.c:163
+msgid "[ Slow find (without index) ]"
+msgstr "[ Поиск (без индекса) ]"
+
+#: src/static_str.c:164
+msgid "Find files"
+msgstr "Поиск файлов"
+
+#: src/static_str.c:166
+msgid "Your terminal cannot change defined color.\n"
+msgstr "Ваш терминал не может переключать цвета.\n"
+
+#: src/static_str.c:167
+msgid "Any color definition from ~/.smbc/smbcrc was ignored.\n"
+msgstr "Все изменения цветов из ~/.smbc/smbcrc игнорируются.\n"
+
+#: src/static_str.c:168
+#, c-format
+msgid "Minimum recommended screen size is 80x25, now is %ix%i.\n"
+msgstr "Минимальный размер экрана 80x25, сейчас %ix%i.\n"
+
+#: src/static_str.c:169
+msgid "Please send raports with bugs to smbc@airm.net.\n"
+msgstr ""
+
+# msgid "Please send raports with bugs to smbc@airm.net.\n"
+# msgstr ""
+#: src/static_str.c:170
+msgid "New find index is ready. You can use quick find file."
+msgstr "Индексирование файлов завершено. Вы можете использовать быстрый поиск."
+
+#: src/static_str.c:171
+#, fuzzy
+msgid "hosts "
+msgstr "Компьютер:"
+
+#: src/static_str.c:173
+msgid "host:"
+msgstr "Компьютер:"
+
+#: src/static_str.c:174
+msgid "message:"
+msgstr "сообщение:"
+
+#: src/static_str.c:175
+msgid "Send message"
+msgstr "Послать сообщение"
+
+#: src/static_str.c:176
+msgid "S R path to remote and local files"
+msgstr "S R путь к удаленным и локальным файлам"
+
+#: src/static_str.c:177
+msgid "This bookmark already exists."
+msgstr "такая закладка уже существует."
+
+#: src/static_str.c:178
+msgid "smbc [OPTIONS]*"
+msgstr "smbc [ПАРАМЕТРЫ]*"
+
+#: src/static_str.c:179
+#, c-format
+msgid "Unable to initialize libsmbclient, error numer %i\n"
+msgstr "НЕ могу инициализировать libsmbclient, код ошибки %i\n"
+
+#: src/static_str.c:180
+msgid ""
+"Probably you don't have a smb config file in ~/smb/smb.conf or ~/etc/samba/"
+"smb.conf\n"
+msgstr "Возможно отсутствует конфигурационный файл /etc/samba/smb.conf\n"
+
+#: src/static_str.c:181
+msgid ""
+"samba without smbc_set_context function, better is samba 3.0.1 or letter\n"
+msgstr ""
+"samba без функции smbc_set_context, рекомендуется samba-3.0.1 или новее\n"
+
+#: src/static_str.c:182
+msgid "selected files/directories"
+msgstr "выбранные файлы/каталоги"
+
+#: src/static_str.c:184
+#, fuzzy
+msgid " new, "
+msgstr " новый, "
+
+#: src/static_str.c:185
+#, fuzzy
+msgid " offline, "
+msgstr " отключен,"
+
+#: src/static_str.c:186
+#, fuzzy
+msgid " new: "
+msgstr " новый: "
+
+#: src/static_str.c:187
+#, fuzzy
+msgid " offline: "
+msgstr " отключен: "
+
+#: src/static_str.c:189
+msgid " complete file "
+msgstr " завершено "
+
+#: src/static_str.c:190
+#, fuzzy
+msgid "Try later connect to "
+msgstr "Попробуйте соединиться с : "
+
+# msgid "Try later connect to "
+# msgstr "PoЁ╠czЙ siЙ pС╪niej do : "
+#: src/static_str.c:191
+#, fuzzy
+msgid ". Delay time : "
+msgstr ". Czas opС╪nienia : "
+
+#: src/static_str.c:192
+msgid "downloading"
+msgstr "копирование"
+
+#: src/static_str.c:193
+msgid "uploading"
+msgstr "копирование"
+
+#: src/static_str.c:194
+msgid "/s, remaing "
+msgstr "/s, осталось "
+
+#: src/static_str.c:195
+msgid "m, "
+msgstr "m, "
+
+#: src/static_str.c:196
+msgid "read"
+msgstr "прочитано"
+
+#: src/static_str.c:197
+msgid "write"
+msgstr "записано"
+
+#: src/static_str.c:198
+msgid "local"
+msgstr "локальный"
+
+#: src/static_str.c:199
+msgid "remote"
+msgstr "удаленный"
+
+#: src/static_str.c:200
+#, c-format
+msgid "Can't open config file: %s\n"
+msgstr "Не могу открыть конфигурационный файл: %s\n"
+
+#: src/static_str.c:201
+msgid ""
+"More functions and parameters you can set up in this configuration file.\n"
+msgstr ""
+"Вы можете указать больше функций и параметров в конфигурационном файле.\n"
+
+#: src/static_str.c:202
+msgid "Example smbcrc file you can find in `docs` directory.\n"
+msgstr "Пример файла smbcrc вы можете найти в каталоге `docs`.\n"
+
+#: src/static_str.c:203
+#, c-format
+msgid "Can't open RC file %s, probably access denied.\n"
+msgstr "Не могу открыть RC %s, возможно отказано в доступе.\n"
+
+#: src/static_str.c:205
+msgid "Displays this help message"
+msgstr "Показать это соощение о помощи"
+
+#: src/static_str.c:206
+msgid "Flush all download lists"
+msgstr "Очистить все списки закачки"
+
+#: src/static_str.c:207
+msgid "Show all download lists"
+msgstr "Показать все списки закачки"
+
+#: src/static_str.c:208
+msgid "Displays all items form dulistX"
+msgstr "Показать все содержимое dulistX"
+
+#: src/static_str.c:209
+msgid "Sleep, don't download/upload any files"
+msgstr "Не скачивать/закачивать никаких файлов"
+
+#: src/static_str.c:210
+msgid "Receive message from samba."
+msgstr "Получено сообщение от другого компьютера."
+
+#: src/static_str.c:211
+msgid "File with samba message, usage only with -m."
+msgstr "Файл с samba сообщениями, требуется опция -m."
+
+#: src/static_str.c:212
+msgid "Displays the current version"
+msgstr "Показать текущую версию smbc"

@@ -1,0 +1,50 @@
+Instrukcjê dla systemu Linux Debian przygotowa³ 
+Krzysztof Pa¼. <Krzysztof.Paz@tpi.pl>
+
+---------------------------------------------------------------------
+
+"Smbc wymaga do dzia³ania bibliotek klienta samby w wersji 3. W
+szczególno¶ci dla systemów Debian w wersji Testing i Unstable dostêpne
+sa one w standardowej dystrybucji - wystarczy je zainstalowaæ
+poleceniem:
+***apt-get install smbclient smbfs libsmbclient***
+Nastêpnie pobieramy plik i instalujemy go za pomoc± komendy:
+***dpkg -i smbc_0.6.3-1_i386.deb***
+
+!!! Uwaga u¿ytkownicy stabilnej dystrybucji Debian Woody !!!
+W tej dystrybucji nie jest standardowo dostêpna samba w wersji 3. Aby j±
+zainstalowaæ, nale¿y dodaæ odpowiednie linie w pliku
+/etc/apt/sources.list:
+***
+#Samba backports:
+deb http://www.backports.org/debian stable samba
+deb-src http://www.backports.org/debian stable samba
+***
+Nastêpnie zapisaæ plik i wydaæ klasyczne polecenie:
+***apt-get update***
+Je¶li mieli¶my ju¿ wczesniej zainstalowane, rzeczone sk³adniki samby,
+nale¿y je zakutalizowaæ z backportu za pomoc± polecenia:
+***apt-get dist-upgrade***
+Je¶li natomiast nie posiadali¶my wcze¶niej zainstalowanej samby,
+instalujemy j± poleceniem:
+***apt-get install smbclient smbfs libsmbclient***
+
+Przed uruchomieniem smbc, nale¿y zadbaæ o odpowiednie wpisy w plikach
+/etc/samba/smb.conf - sekcja:
+[global]
+ workgroup = poprawna_nazwa_grupy
+ wins support = no
+ wins server = adres.ip.serwera.wins
+ name resolve order =  wins lmhosts host bcast
+Oraz w pliku $HOME/.smbc/.smbcrc
+ username go¶æ
+ workgroup poprawna_nazwa_grupy
+Przyk³ad pliku smbrc znajduje siê w pliku:
+/usr/share/doc/smbc-0.6.3/sample.smbcrc
+
+Program uruchamiamy poleceniem:
+smbc
+
+Udanego u¿ytkowania.
+
+---------------------------------------------------------------------

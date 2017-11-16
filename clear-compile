@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo "rm..."
+rm -fR po/Makefile src/Makefile src/Makefile.in doc/Makefile.in Makefile.in autom4te.cache config.status doc/smbc.info
+
+echo "find..."
+find . -name "*.o" -exec rm -f {} \; 
+
+echo "find..."
+find . -name "*~" -exec rm -f {} \; 
+
+echo "find..."
+find . -name ".deps" -exec rm -fR {} \;
+
+echo "find..."
+find . -name "*.gmo" -exec rm -f {} \;

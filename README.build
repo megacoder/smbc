@@ -1,0 +1,6 @@
+
+${DESTDIR} in Makefile.in
+
+doc remove from subdirs
+
+

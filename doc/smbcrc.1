@@ -1,0 +1,259 @@
+.TH SMBCRC 1 "February 2005" "SMBCRC for SMBC Version 1.1.2" "Samba Commander configuration file"
+.SH NAME
+smbcrc \- configuration file for Smbc
+.SH DESCRIPTION
+A file smbcrc incude all parameters for Smbc. The value in parameters
+you can set at two types:
+.PP
+.nf
+    username John Doe
+    or
+    username "John Doe"
+.fi
+.SH OPTIONS
+.IP "\fBusername\fR" 4
+Username that is used during login to remote host, default "guest".
+.PP
+    Example:
+.PP
+.nf
+    username Jon Doe
+.fi
+.IP "\fBpassword\fR" 4
+Password that is enter during login to remote host, default none.
+.PP
+    Example:
+.PP
+.nf
+    password bryDS2team
+.fi
+.IP "\fBsmbclient\fR" 4
+Path to file "smbclient", necessery for sending WinPopup message, 
+default none. Only functions concantenate with send and receive a 
+WinPopup messages work as frontend, Samba Team doesn't include this 
+functions in libsmbclient library.
+.PP
+    Example:
+.PP
+.nf
+    smbclient /usr/bin/smbclient
+.fi
+.IP "\fBlocaldir\fR" 4
+Start local directory when running Smbc, default HOME.
+.PP
+    Example:
+.PP
+.nf
+    localdir /home/rafim/tym
+.fi
+.IP "\fBworkgroup\fR" 4
+Start workgroup, default none.
+.PP
+    Example:
+.PP
+.nf
+    workgroup WORKGROUP
+.fi
+.IP "\fBhost\fR" 4
+Start host, default none.
+.PP
+    Example:
+.PP
+.nf
+    host AIR
+.fi
+.IP "\fBshare\fR" 4
+Start remote host dir, default none.
+.PP
+    Example:
+.PP
+.nf
+    share /sciepa/mpg/
+.fi
+.PP
+.IP "\fBtypeofsort-left\fR" 4
+.PD 0
+.IP "\fBtypeofsort-right\fR" 4
+.PD
+Type of sort files and directories in selected panels, default 1.
+.PP
+.nf
+    typeofsort-left 1 - sort by filenames
+    typeofsort-left 2 - sort by extension
+    typeofsort-left 3 - sort by size
+    typeofsort-left 4 - don't sort
+.fi
+.PP
+    Examples:
+.PP
+.nf
+    typeofsort-left 1
+    typeofsort-right 1
+.fi
+.IP "\fBrevesesort-left\fR" 4
+.PD 0
+.IP "\fBrevesesort-right\fR" 4
+.PD
+Type of reverse sorting, default 0.
+.PP
+.nf
+    revesesort-left 1 - reversesort on
+    revesesort-left 0 - reversesort off
+.fi
+.PP
+    Examples:
+.PP
+.nf
+    revesesort-left 0
+    revesesort-right 0
+.fi
+.IP "\fBgroup-left\fR" 4
+.PD 0
+.IP "\fBgroup-right\fR" 4
+.PD
+Group files and directories, default 1.
+.PP
+.nf
+    group-left 1 - group on
+    group-left 0 - group off
+.fi
+.PP
+    Examples:
+.PP
+.nf
+    group-left 1
+    group-right 1
+.fi
+.IP "\fBtimeout\fR" 4
+Connection time out in seconds, default 3 seconds. This parameter was used 
+when Smbc tries connect to remote host and waits for response. If you have
+the Samba in version oldest than 3.0.0 this parameter don't work and
+Smbc may be waiting for very long time.
+.PP
+    Example:
+.PP
+.nf
+    timeout 3
+.fi
+.IP "\fBautoresume\fR" 4
+Auto resume download, doesn't ask if connection is broken, default 0.
+If connection to remote host or to local file was broken and autoresume
+was set 1 Smbc sets retry-delay-time for this file and immediatelly
+goes to next item in download/upload list.
+.PP
+.nf
+    autoresume 1 - autoresume on
+    autoresume 0 - autoresume off
+.fi
+.PP
+    Example:
+.PP
+.nf
+    autoresume 1
+.fi
+.IP "\fBindextime\fR" 4
+Time between smbc restarts network files indexing in seconds,
+default 300 seconds.
+.PP
+.nf
+    indextime 0     smbc disable indexing network files
+    indextime 1     smbc ony once index network files
+    indextime 300   smbc index network files then delay 300 second 
+                    and restart indexing
+.fi
+.PP
+    Example:
+.PP
+.nf
+    indextime 300
+.fi
+.IP "\fBchar-convert\fR" 4
+Converts all chars from UTF-8 to terminal charset, default 1.
+.PP
+.nf
+    char-convert 1 - char-convert on
+    char-convert 0 - char-convert off
+.fi
+.fi
+.PP
+    Example:
+.PP
+.nf
+    char-convert 1
+.fi
+.IP "\fBretry-delay-time\fR" 4
+Delay time of retrying download is seconds, default 60 second.
+.fi
+.PP
+    Example:
+.PP
+.nf
+    retry-delay-time 60
+.fi
+.IP "\fBaskquit\fR" 4
+Ask if quit from smbc, default 1.
+.IP "\fBretry-read-groups\fR" 4
+How many times smbc retries to read groups when samba returns fail 
+or empty result, default retry-read-groups 5.
+.PP
+.nf
+    retry-read-groups = -1 - retries to success
+    retry-read-groups = 0  - doesn't retry
+    retry-read-groups > 0  - retries retry-read-groups times
+.fi
+.IP "\fBretry-read-hosts\fR" 4
+How many times smbc retries to read hosts when samba returns fail 
+or empty result, default retry-read-hosts 5.
+.PP
+.nf
+   retry-read-hosts = -1 - retries to success
+   retry-read-hosts = 0  - doesn't retry
+   retry-read-hosts > 0  - retries retry-read-hosts times
+.fi
+.IP "\fBretry-read-shares\fR" 4
+How many times smbc retries to read shares when samba returns fail 
+or empty result, default retry-read-shares 5.
+.PP
+.nf
+   retry-read-shares = -1 - retries to success
+   retry-read-shares = 0  - doesn't retry
+   retry-read-shares > 0  - retries retry-read-shares times
+.fi
+.IP "\fBcolorK XXXX,YYYY,ZZZZ\fR" 4
+Defines three colors, where XXXX,YYYY,ZZZZ are red,green,blue 
+and have value = <0000..1000> ,K has value <0..2>,
+default 0 colors defined.
+.PP
+    Examples:
+.PP
+.nf
+    color0 0100,0100,0610
+    color1 0900,0080,0900
+    color2 0010,0500,0500
+.fi
+.IP "\fBextcolorK\fR" 4
+Define color for file extension, K has value <0..2>, one 
+definition per line, maximal extension length = 10 chars
+,default 0 colors defined.
+.PP
+    Examples:
+.PP
+.nf
+    extcolor0 exe
+    extcolor0 bin
+    extcolor0 bat
+    extcolor0 tar
+    extcolor0 gz
+    extcolor0 tgz
+    extcolor1 mp3
+    extcolor1 wav
+    extcolor1 mod
+    extcolor2 avi
+    extcolor2 mpg
+    extcolor2 mpeg
+.fi
+.SH SEE ALSO
+.BR smbcrc (1)
+.SH AUTHOR
+Originally written by Rafal Michniewicz <rafim@data.pl>.
+

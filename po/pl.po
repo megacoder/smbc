@@ -1,0 +1,807 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: smbc 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-08 10:43+0100\n"
+"PO-Revision-Date: 2004-02-01 15:22+0100\n"
+"Last-Translator: Rafal Michniewicz <rafim@data.pl>\n"
+"Language-Team: Rafal Michniewicz <rafim@data.pl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/dulist.c:81
+#, c-format
+msgid "Founded %i lists\n"
+msgstr "Znaleziono %i, list\n"
+
+#: src/dulist.c:106
+#, c-format
+msgid "%s flushed\n"
+msgstr "%s usuniêta\n"
+
+#: src/dulist.c:118
+#, c-format
+msgid "Flush done.\n"
+msgstr "Czyszczenie zakoñczone.\n"
+
+#: src/dulist.c:153
+#, c-format
+msgid "1 - local path\n"
+msgstr "1 - lokalna scie¿ka\n"
+
+#: src/dulist.c:154
+#, c-format
+msgid "2 - workgroup\n"
+msgstr "2 - grupa\n"
+
+#: src/dulist.c:155
+#, c-format
+msgid "3 - size\n"
+msgstr "3 - rozmiar\n"
+
+#: src/dulist.c:156
+#, c-format
+msgid "4 - percent download/upload\n"
+msgstr "4 - procent pobierania/wysylania\n"
+
+#: src/dulist.c:157
+#, c-format
+msgid "5 - 'X' - active, 'W' - wait, ' ' don't download/upload\n"
+msgstr "5 - 'X' - aktywne, 'W' - czeka, ' ' nie sci±gaj/pobieraj\n"
+
+#: src/dulist.c:158
+#, c-format
+msgid "6 - 'D' - download, 'U' - upload\n"
+msgstr "6 - 'D' - pobieraj, 'U' - wysy³aj\n"
+
+#: src/dulist.c:159
+#, c-format
+msgid "7 - remote path\n"
+msgstr "7 - odleg³a ¶cie¿ka\n"
+
+#: src/static_str.c:27
+msgid "Please change screen"
+msgstr "Prosze zmieñ ekran"
+
+#: src/static_str.c:28
+msgid "size to minimum 80x25"
+msgstr "rozmiar to minimum 80x25"
+
+#: src/static_str.c:29
+msgid "A workgroups list is empty."
+msgstr "Lista group roboczych jest pusta."
+
+#: src/static_str.c:30
+msgid "Founded workgroups."
+msgstr "Znaleziono grupy robocze."
+
+#: src/static_str.c:31
+msgid "A hosts list in workgroup is empty."
+msgstr "Lista komputerów w grupie roboczej jest pusta."
+
+#: src/static_str.c:32
+msgid "Founded hosts in workgroup."
+msgstr "Znaleziono komputery w grupie roboczej."
+
+#: src/static_str.c:33
+msgid "A share list in host is empty."
+msgstr "Lista udzia³ów w komputerze jest pusta."
+
+#: src/static_str.c:34
+msgid "Founded shares in host."
+msgstr "Znaleziono udzia³y w komputerze."
+
+#: src/static_str.c:35
+msgid "Can't read files/dirs from host."
+msgstr "Nie mogê odczytaæ plików/katalogów z komputera."
+
+#: src/static_str.c:36
+msgid "A files/dirs list in host is empty."
+msgstr "Lista plików/katalogów na komputerze jest pusta."
+
+#: src/static_str.c:37
+msgid "Founded files/dirs in host."
+msgstr "Znaleziono pliki/katalogi w komputerze."
+
+#: src/static_str.c:39
+msgid " is empty."
+msgstr " jest pusty."
+
+#: src/static_str.c:40
+msgid "Share "
+msgstr "Udzia³ "
+
+#: src/static_str.c:41
+msgid "[ Retry ]"
+msgstr "[ Wznów ]"
+
+#: src/static_str.c:42
+msgid "[ Wait ]"
+msgstr "[ Czekaj ]"
+
+#: src/static_str.c:43
+msgid "[ Overwrite ]"
+msgstr "[ Nadpisz ]"
+
+#: src/static_str.c:44
+msgid "[ Retry without asking ]"
+msgstr "[ Ponów bez pytania ]"
+
+#: src/static_str.c:45
+msgid "[ Delete ]"
+msgstr "[ Kasuj ]"
+
+#: src/static_str.c:46
+msgid "retry delay time : "
+msgstr "ponów po up³ywie : "
+
+#: src/static_str.c:47
+msgid "    found :"
+msgstr "zaleziono :"
+
+#: src/static_str.c:48
+msgid "Probably "
+msgstr "Prawdopodobnie "
+
+#: src/static_str.c:49
+msgid " disk is full or quota exceeded."
+msgstr " dysk jest pe³ny albo quota przekroczona."
+
+#: src/static_str.c:50
+msgid "Retry read workgroups list "
+msgstr "Próba odczytania listy grup "
+
+#: src/static_str.c:51
+msgid "Retry read hosts list "
+msgstr "Próba odczytania listy hostów "
+
+#: src/static_str.c:52
+msgid "Retry read shares list "
+msgstr "Próba odczytania listy udzia³ów "
+
+#: src/static_str.c:53
+msgid "Can't read workgroup."
+msgstr "Próba odczytania listy grup "
+
+#: src/static_str.c:54
+msgid "Can't read workgroups list."
+msgstr "Próba odczytania listy grup "
+
+#: src/static_str.c:55
+msgid "Dir "
+msgstr "Katalog "
+
+#: src/static_str.c:56
+msgid "Download list is empty."
+msgstr "Lista do kopiowania jest pusta."
+
+#: src/static_str.c:57
+msgid "I can't enter to"
+msgstr "Nie moge wej¶æ do"
+
+#: src/static_str.c:58
+msgid "Do you want delete"
+msgstr "Czy chcesz kasowaæ"
+
+#: src/static_str.c:59
+msgid "Group "
+msgstr "Grupa "
+
+#: src/static_str.c:60
+msgid "Host "
+msgstr "Komputer "
+
+#: src/static_str.c:61
+msgid "Access denied."
+msgstr "Brak dostêpu."
+
+#: src/static_str.c:62
+msgid "Do you want copy"
+msgstr "Czy chcesz kopiowaæ"
+
+#: src/static_str.c:63
+msgid "Index for find file now is empty, try letter."
+msgstr "Plik indeksowy jest teraz pusty, spróbuj pó¼niej"
+
+#: src/static_str.c:64
+msgid "Loading find index file from disk to memory, please wait..."
+msgstr "Czytanie pliku indeksowego z dysku do pamiêci, prosze czekaæ..."
+
+#: src/static_str.c:65
+msgid "New message"
+msgstr "Nowa wiadomo¶æ"
+
+#: src/static_str.c:66
+msgid "Do you want quit from smbc?"
+msgstr "Czy chcesz wyj¶æ z smbc?"
+
+#: src/static_str.c:67
+msgid "S D size  remai per file/directory"
+msgstr "S D rozmi pozos pro plik/katalog"
+
+#: src/static_str.c:68
+msgid "time remaing | delay | from | to | group"
+msgstr "ponów za | opó¼nienie | z | do | grupa"
+
+#: src/static_str.c:69
+msgid "Try connect to : "
+msgstr "Próba po³±czenia do : "
+
+#: src/static_str.c:70
+msgid "Permission denied to"
+msgstr "Brak dostêpu do"
+
+#: src/static_str.c:72
+msgid "Adding files to download list..."
+msgstr "Dodawanie plików do listy pobieranych..."
+
+#: src/static_str.c:73
+msgid "Adding files to upload list..."
+msgstr "Dodawanie plików do listy wysy³anych..."
+
+#: src/static_str.c:74
+msgid "q-quit | h-help | (d)F5-copy | s-download list | f - search remote file"
+msgstr ""
+"q-koniec | h-pomoc | (d)F5-kopiuj | s-lista kopiowania | f-szukaj odleg³ych "
+"plików"
+
+#: src/static_str.c:75
+msgid ""
+"Enter workgroup name, keys Enter,TAB - next field, Ctrl+p enable/disable "
+"interactive filtering, Ctrl+k - quit"
+msgstr ""
+"Wprowad¼ nazwê grupy, Enter,TAB - nastêpne pole, Ctrl+p w³±cza/wy³±cza "
+"interaktywne filtrowanie, Ctrl+k - koniec"
+
+#: src/static_str.c:76
+msgid ""
+"Enter hostname name, Enter,TAB - next field, Ctrl+p enable/disable "
+"interactive filtering, Ctrl+k - quit"
+msgstr ""
+"Wprowad¼ nazwê hosta, Enter,TAB - nastêpne pole, Ctrl+p w³±cza/wy³±cza "
+"interaktywne filtrowanie, Ctrl+k - koniec"
+
+#: src/static_str.c:77
+msgid ""
+"Enter dir name, Enter,TAB - next field, Ctrl+p enable/disable interactive "
+"filtering, Ctrl+k - quit"
+msgstr ""
+"Wprowad¼ nazwê katalogu, Enter,TAB - nastêpne pole, Ctrl+p w³±cza/wy³±cza "
+"interaktywne filtrowanie, Ctrl+k - koniec"
+
+#: src/static_str.c:78
+msgid ""
+"Enter file name, Enter,TAB - next field, Ctrl+p enable/disable interactive "
+"filtering, Ctrl+k - quit"
+msgstr ""
+"Wprowad¼ nazwê pliku, Enter,TAB - nastêpne pole, Ctrl+p w³±cza/wy³±cza "
+"interaktywne filtrowanie, Ctrl+k - koniec"
+
+#: src/static_str.c:79
+msgid ""
+"q - quit | Enter - go to file | TAB - next field | PageUp,PageDown,Up,Down - "
+"manage to list"
+msgstr ""
+"q - koniec | Enter - id¼ do pliku | TAB - nasêpne pole | PageUp,PageDown,Up,"
+"Down - zarz±dzaj list±"
+
+#: src/static_str.c:81
+msgid "Preparing find index."
+msgstr "Tworzenie indeksu wyszukiwania."
+
+#: src/static_str.c:82
+#, c-format
+msgid "Sort %s panel by filename."
+msgstr "Sortowanie %s panelu wed³ug nazwy pliku."
+
+#: src/static_str.c:83
+#, c-format
+msgid "Sort %s panel by extension."
+msgstr "Sortowanie %s panelu wed³ug rozszerzenia."
+
+#: src/static_str.c:84
+#, c-format
+msgid "Sort %s panel by size."
+msgstr "Sortowanie %s panelu wed³ug rozmiaru."
+
+#: src/static_str.c:85
+#, c-format
+msgid "%s panel without sorting."
+msgstr "%s panel bez sortowania"
+
+#: src/static_str.c:86
+#, c-format
+msgid "Reverse sorting in %s panel."
+msgstr "Odwrócone sortowanie w %s panelu."
+
+#: src/static_str.c:87
+#, c-format
+msgid "Ungroup files and directories in %s panel."
+msgstr "Wy³±czone grupowanie plików i katalogów w %s panelu."
+
+#: src/static_str.c:88
+#, c-format
+msgid "Group files and directories in %s panel."
+msgstr "Grupowanie plików i katalogów w %s panelu."
+
+#: src/static_str.c:89
+#, c-format
+msgid "Warning. Can't copy %s workgroup."
+msgstr "Uwaga. Nie mo¿na kopiowaæ %s grupy."
+
+#: src/static_str.c:90
+#, c-format
+msgid "Warning. Can't copy %s host."
+msgstr "Uwaga. Nie mo¿na kopiowaæ %s hosta."
+
+#: src/static_str.c:91
+msgid "Warning. Can't copy from share."
+msgstr "Uwaga. Nie mo¿na kopiowaæ z udzia³u."
+
+#: src/static_str.c:92
+msgid "Warning. Can't copy to network."
+msgstr "Uwaga. Nie mo¿na kopiowaæ do ca³ej sieci."
+
+#: src/static_str.c:93
+msgid "(q)F3-quit | (w)F8-wrap/unwrap"
+msgstr "(q)F3-koniec | (w)F8-zawijaj/nie zawijaj wierszy"
+
+#: src/static_str.c:94
+msgid "Interactive filtering is off."
+msgstr "Interaktywne filtrowanie wy³±czone."
+
+#: src/static_str.c:95
+msgid "Interactive filtering is on."
+msgstr "Interaktywne filtrowanie w³±czone."
+
+#: src/static_str.c:96
+msgid ""
+"q - quit | b - add bookmark and quit | d(DEL)/u - delete/undelete | x(Enter) "
+"- go to item"
+msgstr ""
+"q-koniec | b-dodaj zak³adkê i wyjd¼ | d(DEL) - skasuj | x(Enter) - id¼ do "
+"pola"
+
+#: src/static_str.c:97
+msgid ""
+"MOVE q - quit | b - add bookmark and quit | d(DEL)/u - delete/undelete | x"
+"(Enter) - go to item"
+msgstr ""
+"PRZEN. q-koniec | b-dodaj zak³adkê i wyjd¼ | d(DEL) - skasuj | x(Enter) - "
+"id¼ do pola"
+
+#: src/static_str.c:98
+msgid ""
+"q - exit | d(DEL) - delete | u - undelete | space - pause/resume | CTRL-d - "
+"delete dir | CTRL-f - flush list"
+msgstr ""
+"q - koniec | d(DEL) - kasuj | u - nie kasuj | spacja - pauzuj/wznów | CTRL-d "
+"- kasuj katalog | CTRL-f - czysc liste"
+
+#: src/static_str.c:99
+msgid ""
+"MOVE q - exit | d(DEL) - delete | u - undelete | space - pause/resume | CTRL-"
+"d - delete dir | CTRL-f - flush list"
+msgstr ""
+"PRZEN. q - koniec | d(DEL) - kasuj | u - nie kasuj | spacja - pauzuj/wznów | "
+"CTRL-d - kasuj katalog | CTRL-f - czysc liste"
+
+#: src/static_str.c:100
+msgid "right"
+msgstr "lewy"
+
+#: src/static_str.c:101
+msgid "left"
+msgstr "lewy"
+
+#: src/static_str.c:102
+msgid "from"
+msgstr "z"
+
+#: src/static_str.c:103
+msgid "o,arrow down - down              u,end - tail off list"
+msgstr "o,strza³ka w dó³    - w dó³   u,end -    na koniec listy"
+
+#: src/static_str.c:104
+msgid "p,arrow up   - up               y,home - head off list"
+msgstr "p, strza³ka w górê - w górê   y,home - na pocz±tek listy"
+
+#: src/static_str.c:105
+msgid "i,tab        - change column      d,F5 - download/upload"
+msgstr "i,tab       - zmieñ kolumnê   d,F5 -     sci±gaj/wysy³aj"
+
+#: src/static_str.c:106
+msgid "t            - group/ungroup         w - reverse sorting"
+msgstr "t       - grupuj/nie grupuj   w -  odwrócenie sortowania"
+
+#: src/static_str.c:107
+msgid "x,Enter           - execute a directory"
+msgstr "x,Enter          - wejd¼ do katalogu"
+
+#: src/static_str.c:108
+msgid "a,insert          - select/unselect one file"
+msgstr "a,insert         - zaznacz/odznacz jeden plik"
+
+#: src/static_str.c:109
+msgid "l,page up         - one screen up"
+msgstr "l,page up        - jeden ekran w górê"
+
+#: src/static_str.c:110
+msgid "k,page down       - one screen down"
+msgstr "k,page down      - jeden ekran w dó³"
+
+#: src/static_str.c:111
+msgid "CTRL-d,F8         - delete file or directory"
+msgstr "CTRL-d,F8        - kasowanie pliku lub katalogu"
+
+#: src/static_str.c:112
+msgid "shift-/shift=     - select/unselect all files"
+msgstr "shift-/shift=    - zaznacz/odznacz wszystkie pliki"
+
+#: src/static_str.c:113
+msgid "numeric *,shift-8 - reverse select"
+msgstr "num. *,shift-8   - odwróæ zaznaczenie"
+
+#: src/static_str.c:114
+msgid "c,F7              - create directory"
+msgstr "c,F7             - tworzenie katalogu"
+
+#: src/static_str.c:115
+msgid "v,F3              - view text file"
+msgstr "v,F3             - poka¿ plik tekstowy"
+
+#: src/static_str.c:116
+msgid "g                 - go to group/host/share/dir"
+msgstr "g                - id¼ do grupy/hosta/udzia³u/kat."
+
+#: src/static_str.c:117
+msgid "e                 - change type of sorting"
+msgstr "e                - zmiana typu sortowania"
+
+#: src/static_str.c:118
+msgid "s                 - download list status"
+msgstr "s                - status pobierania plików"
+
+#: src/static_str.c:119
+msgid "f - search file     r - reload     q - quit     h - help"
+msgstr "f - szukaj pliku   r - od¶wierz   q - koniec   h - pomoc"
+
+#: src/static_str.c:120
+msgid "              More details in README file."
+msgstr "          Wiêcej szczegó³ów w pliku README."
+
+#: src/static_str.c:121
+msgid "Inspiration is my wife Magda (Arida)"
+msgstr "Inspiracj± jest moja ¿ona Magda (Arida)"
+
+#: src/static_str.c:123
+msgid "Files"
+msgstr "Pliki"
+
+#: src/static_str.c:125
+msgid "to"
+msgstr "do"
+
+#: src/static_str.c:126
+msgid "are different or connection broken."
+msgstr "s± ró¿ne lub po³±czenie zosta³o zerwane."
+
+#: src/static_str.c:127
+msgid "Click on Wait to download letter."
+msgstr "Naci¶nij Czekaj aby pó¼niej skopiowaæ."
+
+#: src/static_str.c:128
+msgid "Warning"
+msgstr "Uwaga"
+
+#: src/static_str.c:129
+msgid "Can't "
+msgstr "Nie mogê "
+
+#: src/static_str.c:130
+msgid "Connection broken."
+msgstr "Po³±czenie przerwane."
+
+#: src/static_str.c:131
+msgid "deleting"
+msgstr "kasowanie"
+
+#: src/static_str.c:133
+msgid "file or directory name"
+msgstr "nazwa pliku lub katalogu"
+
+#: src/static_str.c:135
+msgid "T"
+msgstr "T"
+
+#: src/static_str.c:136
+msgid "workgroup, share, file or directory name"
+msgstr "nazwa grupy, udzia³u, pliku lub katalogu"
+
+#: src/static_str.c:137
+msgid "size"
+msgstr "rozmiar"
+
+#: src/static_str.c:139
+msgid "error saving download/upload list\n"
+msgstr "b³±d podczas zapisu listy ¶ci±gania/pobierania\n"
+
+#: src/static_str.c:141
+msgid "workgroup:"
+msgstr "grupa:"
+
+#: src/static_str.c:143
+msgid "path:"
+msgstr "¶cie¿ka:"
+
+#: src/static_str.c:144
+msgid "username:"
+msgstr "u¿ytkownik:"
+
+#: src/static_str.c:145
+msgid "password:"
+msgstr "has³o:"
+
+#: src/static_str.c:146
+msgid "[ OK ]"
+msgstr "[ OK ]"
+
+#: src/static_str.c:147
+msgid "[ Cancel ]"
+msgstr "[ Anuluj ]"
+
+#: src/static_str.c:148
+msgid "Go to"
+msgstr "Id¼ do"
+
+#: src/static_str.c:149
+msgid "Create directory"
+msgstr "Tworzenie katalogu"
+
+#: src/static_str.c:150
+msgid "workgroup"
+msgstr "grupa"
+
+#: src/static_str.c:151
+msgid "hostname"
+msgstr "nazwa komputera"
+
+#: src/static_str.c:152
+msgid "dir"
+msgstr "katalog"
+
+#: src/static_str.c:153
+msgid "filename"
+msgstr "nazwa pliku"
+
+#: src/static_str.c:154
+msgid "Workgroup:"
+msgstr "Grupa:"
+
+#: src/static_str.c:155
+msgid "Hostname:"
+msgstr "Komputer:"
+
+#: src/static_str.c:156
+msgid "Dir:"
+msgstr "Katalog:"
+
+#: src/static_str.c:157
+msgid "Filename:"
+msgstr "Plik:"
+
+#: src/static_str.c:158
+msgid "Finding files on the network"
+msgstr "Szukanie plików w sieci"
+
+#: src/static_str.c:159
+msgid "Workgroup :"
+msgstr "    Grupa :"
+
+#: src/static_str.c:160
+msgid "     Host :"
+msgstr " Komputer :"
+
+#: src/static_str.c:161
+msgid "      Dir :"
+msgstr "  Katalog :"
+
+#: src/static_str.c:162
+msgid "[ Quick find (with index) ]"
+msgstr "[ Szybkie (z indexem) ]"
+
+#: src/static_str.c:163
+msgid "[ Slow find (without index) ]"
+msgstr "[ Wolne (bez indeksu) ]"
+
+#: src/static_str.c:164
+msgid "Find files"
+msgstr "Szukaj plików"
+
+#: src/static_str.c:166
+msgid "Your terminal cannot change defined color.\n"
+msgstr "Twój terminal nie mo¿e zmieniaæ zdefiniowanych kolorów.\n"
+
+#: src/static_str.c:167
+msgid "Any color definition from ~/.smbc/smbcrc was ignored.\n"
+msgstr "Wszystkie definicje kolorów z ~/.smbc/smbcrc zosta³y zignorowane.\n"
+
+#: src/static_str.c:168
+#, c-format
+msgid "Minimum recommended screen size is 80x25, now is %ix%i.\n"
+msgstr "Minimalny wymagany rozmiar ekranu to 80x25, teraz jest %ix%i.\n"
+
+#: src/static_str.c:169
+msgid "Please send raports with bugs to smbc@airm.net.\n"
+msgstr "Proszê wysy³aj raporty z b³êdami do smbc@airm.net\n"
+
+#: src/static_str.c:170
+msgid "New find index is ready. You can use quick find file."
+msgstr ""
+"Nowy indeks wyszukiwania plików jest gotowy. Mo¿esz teraz u¿ywaæ szybkiego "
+"wyszukiwania plików."
+
+#: src/static_str.c:171
+msgid "hosts "
+msgstr "komputer "
+
+#: src/static_str.c:173
+msgid "host:"
+msgstr "komputer:"
+
+#: src/static_str.c:174
+msgid "message:"
+msgstr "wiadomo¶æ:"
+
+#: src/static_str.c:175
+msgid "Send message"
+msgstr "Wy¶lij wiadomo¶æ"
+
+#: src/static_str.c:176
+msgid "S R path to remote and local files"
+msgstr "S R scie¿ka do odleg³ych i lokalnych plików"
+
+#: src/static_str.c:177
+msgid "This bookmark already exists."
+msgstr "Ta zak³adka ju¿ istnieje."
+
+#: src/static_str.c:178
+msgid "smbc [OPTIONS]*"
+msgstr "smbc [OPCJE]*"
+
+#: src/static_str.c:179
+#, c-format
+msgid "Unable to initialize libsmbclient, error numer %i\n"
+msgstr "Nie moge zainicjowaæ biblioteki libsmbclient, numer b³edu %i\n"
+
+#: src/static_str.c:180
+msgid ""
+"Probably you don't have a smb config file in ~/smb/smb.conf or ~/etc/samba/"
+"smb.conf\n"
+msgstr ""
+"Prawdopodobnie nie masz pliku konfiguracyjnego samby w ~/smb/smb.conf lub w "
+"~/etc/samba/smb.conf\n"
+
+#: src/static_str.c:181
+msgid ""
+"samba without smbc_set_context function, better is samba 3.0.1 or letter\n"
+msgstr ""
+"samba bez funkcji smbc_set_context, lepsza jest samba w wersji 3.0.1 lub "
+"nowszej\n"
+
+#: src/static_str.c:182
+msgid "selected files/directories"
+msgstr "zaznacznone pliki/katalogi"
+
+#: src/static_str.c:184
+msgid " new, "
+msgstr " nowych, "
+
+#: src/static_str.c:185
+msgid " offline, "
+msgstr " wy³±czy³o sie, "
+
+#: src/static_str.c:186
+msgid " new: "
+msgstr " nowe: "
+
+#: src/static_str.c:187
+msgid " offline: "
+msgstr " wy³±czy³y siê: "
+
+#: src/static_str.c:189
+msgid " complete file "
+msgstr " sci±gniêtego pliku "
+
+#: src/static_str.c:190
+msgid "Try later connect to "
+msgstr "Po³±czê siê pó¼niej do "
+
+#: src/static_str.c:191
+msgid ". Delay time : "
+msgstr ". Czas opó¼nienia : "
+
+#: src/static_str.c:192
+msgid "downloading"
+msgstr "sci±ganie"
+
+#: src/static_str.c:193
+msgid "uploading"
+msgstr "wysy³anie"
+
+#: src/static_str.c:194
+msgid "/s, remaing "
+msgstr "/s, pozosta³o "
+
+#: src/static_str.c:195
+msgid "m, "
+msgstr "m, "
+
+#: src/static_str.c:196
+msgid "read"
+msgstr "czytaæ"
+
+#: src/static_str.c:197
+msgid "write"
+msgstr "zapisaæ"
+
+#: src/static_str.c:198
+msgid "local"
+msgstr "lokalny"
+
+#: src/static_str.c:199
+msgid "remote"
+msgstr "odleg³ych"
+
+#: src/static_str.c:200
+#, c-format
+msgid "Can't open config file: %s\n"
+msgstr "Nie moge otworzyc pliku konfiguracyjnego: %s\n"
+
+#: src/static_str.c:201
+msgid ""
+"More functions and parameters you can set up in this configuration file.\n"
+msgstr ""
+"Du¿o funkcji i parametrów mo¿esz ustawiæ w tym konfiguracyjnym pliku.\n"
+
+#: src/static_str.c:202
+msgid "Example smbcrc file you can find in `docs` directory.\n"
+msgstr "Przyk³adowy plik smbrc mo¿esz znale¶æ w katalogu `docs`.\n"
+
+#: src/static_str.c:203
+#, c-format
+msgid "Can't open RC file %s, probably access denied.\n"
+msgstr "Nie moge otworzyæ pliku RC %s, prawdopodobnie brak dostepu.\n"
+
+#: src/static_str.c:205
+msgid "Displays this help message"
+msgstr "Wy¶wietla t± pomoc"
+
+#: src/static_str.c:206
+msgid "Flush all download lists"
+msgstr "Wyczy¶æ wszystkie listy sci±gania"
+
+#: src/static_str.c:207
+msgid "Show all download lists"
+msgstr "Poka¿ wszystkie listy sci±gania"
+
+#: src/static_str.c:208
+msgid "Displays all items form dulistX"
+msgstr "Wy¶wietla wszystkie rekordy z dulistyX"
+
+#: src/static_str.c:209
+msgid "Sleep, don't download/upload any files"
+msgstr "Nie uaktywniaj procedury sci±gania/wysy³ania plików"
+
+#: src/static_str.c:210
+msgid "Receive message from samba."
+msgstr "Otrzymywanie wiadomo¶ci od samby."
+
+#: src/static_str.c:211
+msgid "File with samba message, usage only with -m."
+msgstr "Plik z wiadomo¶ci± od samby, u¿ywany wy³±cznie razem z opcj± -m."
+
+#: src/static_str.c:212
+msgid "Displays the current version"
+msgstr "Wy¶wietla wersjê smbc"

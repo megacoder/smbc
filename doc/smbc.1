@@ -1,0 +1,269 @@
+.TH SMBC 1 "February 2005" "SMBC Version 1.1.2" "Samba Commander"
+.SH NAME
+smbc \- Text mode SMB network commander.
+.SH DESCRIPTION
+Samba Commander is a text mode SMB network commander. With SMBC, 
+you can browse your local network or use the search function to 
+find files in a share. You can also download/upload files and 
+directories or create them both locally and remotely. SMBC 
+features the resume capability and UTF-8 encoding support.
+.SH OPTIONS
+.IP "\fB\-V\fR" 4
+.PD 0
+.IP "\fB\-\-version\fR" 4
+.PD
+Displays the version of Smbc.
+.IP "\fB\-h\fR" 4
+.PD 0
+.IP "\fB\-\-help\fR" 4
+.PD
+Prints a help message describing all Smbc's command-line options.
+.IP "\fB\-f\fR" 4
+.PD 0
+.IP "\fB\-\-flush\fR" 4
+.PD
+Flushes all download lists. All files from ~/.smbc/ with dulist* name
+will be removed. In next run of Smbc the download/upload list will be 
+empty.
+.IP "\fB\-l\fR" 4
+.PD 0
+.IP "\fB\-\-list\fR" 4
+.PD
+Shows all download lists from ~/.smbc/.
+.IP "\fB\-s INT\fR" 4
+.PD 0
+.IP "\fB\-\-show=INT\fR" 4
+.PD
+Displays all items form list with INT numer. You can get all numers from
+the list executing smbc -l command.
+.IP "\fB\-p\fR" 4
+.PD 0
+.IP "\fB\-\-sleep\fR" 4
+.PD
+Sleeps Smbc. Smbc doesn't download/upload any files when execuding even 
+if some files waiting in queue.
+.IP "\fB\-m STRING\fR" 4
+.PD 0
+.IP "\fB\-\-message=STRING\fR" 4
+.PD
+Receives message from samba. If you want that Smbc receives WinPopup
+message you must add bellow line to smb.conf 
+.PP
+.I message command = /path_to/smbc -m 'message from %f on %m' -i %s; rm %s
+.PP
+Now if you have running Smbc and someone sends you a WinPopup message
+Smbc immediatelly display it. If you don't run a Smbc all WinPopup 
+messages wait for executing a Smbc.
+.IP "\fB\-i STRING\fR" 4
+.PD 0
+.IP "\fB\-\-file=STRING\fR" 4
+Sets file with samba message, usage only with -m.
+.PD
+.SH "MENUS AND KEYS"
+At top of the main menu is mini status bar. There is displayed small
+help with functions. When Smbc downloads/uploads any file in mini status
+bar is displayed progress of downloading/uploading.
+.SH "  main menu - keys"
+.PD 0
+.I (arrow-up) (p)
+- move one item up
+.PP
+.I (arrow-down) (o)
+- move one item down
+.PP
+.I (tab) (i)
+- change selected column
+.PP
+.I (t)
+- group/ungroup catalog or files
+.PP
+.I (end) (u)
+- go to the end off list
+.PP
+.I (home) (y)
+- go to the start off list
+.PP
+.I (F5) (d)
+- download/upload selected files and directories
+.PP
+.I (w)
+- reverse sorting
+.PP
+.I (enter) (x)
+- execute a workgroup, host, share or directory
+.PP
+.I (insert) (a)
+- select or unselect one item
+.PP
+.I (page up) (l)
+- move one screen up
+.PP
+.I (page down) (k)
+- move one screen down
+.PP
+.I (F8) (ctrl+d)
+- delete selected files and directories
+.PP
+.I (F7) (c)
+- create directory
+.PP
+.I (F3) (v)
+- view text file, execute workgroup, host, share or directory
+.PP
+.I (g)
+- go to workgroup, host, share in remote host
+.PP
+.I (e)
+- change type of sorting
+.PP
+.I (s)
+- edit download/upload list
+.PP
+.I (m)
+- send a WinPopup message
+.PP
+.I (b)
+- bookmark
+.PP
+.I (bb)
+- add item to bookmark
+.PP
+.I (q)
+- exit from Smbc
+.PD
+.SH "  download/upload list menu - keys"
+.PD 0
+.PP
+.I (q)
+- exit from this menu
+.PP
+.I (del) (d)
+- set selected item to delete
+.PP
+.I (u)
+- set selected item to undelete
+.PP
+.I (m)
+- mark/unmark selected item
+.PP
+.I (space)
+- pause/resume selected item download
+.PP
+.I (ctrl+d)
+- delete all dirs and subdirs for selected item
+.PP
+.I (ctrl+f)
+- flush all items
+.PP
+.I (arrow-right) (.)
+- add 1 second to delay time
+.PP
+.I (arrow-left) (,)
+- take off 1 second from delay time
+.PP
+.I (shift+arrow-right) (>)
+- add 60 seconds to delay time
+.PP
+.I (shift+arrow-left) (<)
+- take off 60 seconds from delay time
+.PP
+.I (;)
+- add 1 second to delay time for all items
+.PP
+.I (')
+- take off 1 second from delay time for all items
+.PP
+.I (:)
+- add 60 seconds to delay time for all items
+.PP
+.I (")
+- take off 60 seconds from delay time for all items
+.PP
+.I (|)
+- copy current item delay time to all items
+.PP
+.I (n)
+- set try download now to select item
+.PP
+.I (N)
+- set try download now to all items
+.PD
+.SH "  bookmark list menu - keys"
+.PD 0
+.PP
+.I (q)
+- exit from this menu
+.PP
+.I (b)
+- add item to bookmark and exit
+.PP
+.I (del) (d)
+- set selected item to delete
+.PP
+.I (u)
+- set selected item to undelete
+.PP
+.I (m)
+- mark/unmark item
+.PP
+.I (enter) (x)
+- go to selected item
+.PD
+.PD
+.SH "  message when connection broken - keys"
+.PD 0
+.PP
+.I (arrow-up) (.)
+- add 1 second to delay time
+.PP
+.I (arrow-down) (,)
+- take off 1 second from delay time
+.PP
+.I (shift+arrow-up) (>)
+- add 60 seconds to delay time
+.PP
+.I (shift+arrow-down) (<)
+- take off 60 seconds from delay time
+.PD
+.PD
+.SH "  find file menu - keys"
+.PD 0
+.PP
+> input items <
+.PP
+.I (enter) (tab)
+- go to the next item
+.PP
+.I (ctrl+p)
+- enable/disable interactive filtering
+.PP
+.I (ctrl+k)
+- exit from find file menu
+.PP
+> select items <
+.PP
+.I (tab)
+- go to the next item
+.PP
+.I (enter)
+- go to selected file
+.PP
+.I (q)
+- quit
+.PD
+.SH "AVAILABILITY"
+The latest version of this program can be found at 
+http://smbc.airm.net.
+.SH "SEE ALSO"
+README
+.SH BUGS
+.PD 0
+You are welcome to send bug reports about Smbc to
+.PP
+<smbc@airm.net>.
+.PD
+.SH SEE ALSO
+.BR smbc (1)
+.SH AUTHOR
+Originally written by Rafal Michniewicz <rafim@data.pl>.
+
